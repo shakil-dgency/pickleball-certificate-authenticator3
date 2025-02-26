@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import React from "react";
-import Lottie from "lottie-react";
+// import Lottie from "lottie-react";
 import witness from "../../../public/home/eye.json";
 import Authenticity from "../../../public/home/Authenticity.json";
 import verify from "../../../public/home/verify.json";
@@ -13,7 +13,7 @@ function PurchaseIncludes() {
 			<div className="mt-[40px] grid grid-cols-1 sm:grid-cols-3 place-items-center gap-10 sm:gap-5 max-w-[1000px] mx-auto ">
 				<div className="text-center max-w-[360px] ">
 					<div className="flex justify-center ">
-						<Lottie loop={true} animationData={witness} className=" w-20" />
+						{/* <Lottie loop={true} animationData={witness} className=" w-20" /> */}
 					</div>
 					
 					<p className="font-barlow py-2.5 font-[600] text-[20px]">Witnessing</p>
@@ -21,14 +21,14 @@ function PurchaseIncludes() {
 				</div>
 				<div className="text-center  max-w-[360px]">
 					<div className="flex justify-center ">
-						<Lottie loop={true} animationData={Authenticity} className=" w-20" />
+						{/* <Lottie loop={true} animationData={Authenticity} className=" w-20" /> */}
 					</div>
 					<p className="font-barlow py-2.5 font-[600] text-[20px]">Authenticity</p>
 					<p className="">Pickleball Certified Authentic affixes a tamper evident security hologram to protect the value of the certified item.</p>
 				</div>
 				<div className="text-center  max-w-[360px] ">
 					<div className="flex justify-center ">
-						<Lottie loop={true} animationData={verify} className=" w-20" />
+						{/* <Lottie loop={true} animationData={verify} className=" w-20" /> */}
 					</div>
 					<p className="font-barlow py-2.5 font-[600] text-[20px]">Security</p>
 					<p className="">
