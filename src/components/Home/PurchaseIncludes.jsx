@@ -1,7 +1,7 @@
 "use client"
-import Image from "next/image";
 import React from "react";
-import Lottie from "lottie-react";
+import dynamic from "next/dynamic";
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 import witness from "../../../public/home/eye.json";
 import Authenticity from "../../../public/home/Authenticity.json";
 import verify from "../../../public/home/verify.json";
